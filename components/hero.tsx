@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import Typed from "typed.js"
-import { ChevronDown, Linkedin, Github, Mail, Phone } from "lucide-react"
+import { ChevronDown, Linkedin, Github/*, Mail, Phone*/ } from "lucide-react"
 
 const Hero = () => {
   const typedRef = useRef<HTMLSpanElement>(null)
@@ -37,7 +37,7 @@ const Hero = () => {
       url: "https://github.com/d-veer01",
       color: "hover:text-purple-500",
     },
-    {
+    /*{
       name: "Email",
       icon: <Mail size={20} />,
       url: "mailto:d.veer.robo507@gmail.com",
@@ -48,7 +48,7 @@ const Hero = () => {
       icon: <Phone size={20} />,
       url: "tel:+917297079685",
       color: "hover:text-green-500",
-    },
+    },*/
   ]
 
   return (
